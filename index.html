@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css">
+    <title>P.S.</title>
+</head>
+<body>
+    <div class="nav-container">
+        <nav>
+            <span class="brand">
+                P.S.                
+            </span>
+            <div class="nav-links" id="nav-menu">
+                <i class="fas fa-times" id="close" onclick="closeMenu()"></i>
+                <ul>
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#work">Work</a>                    
+                    </li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" id="menu" onclick="showMenu()"></i>
+        </nav>        
+    </div>
+
+    <section id="home">
+        <div class="container">
+            <div class="image-container">
+                <img src="./IMG_1761 (2).JPG" alt="Pragya Shashwati" class="me">
+            </div>
+            <div class="desc-container">
+                <h1>Hi, I'm Pragya Shashwati.</h1>
+                <p>I'm a budding software developer.</p>
+                <!-- <p>I love teaching machines to learn.</p> -->
+            </div>
+            
+        </div>
+
+    </section>
+
+    <section id="about">
+        <div class="grid-container">
+            <div class="about">
+                <h1 class="head">
+                    About me
+                </h1>
+                <p>
+                    Hello everyone! I am Pragya Shashwati, an upcoming MCA graduate.
+                </p>
+                <p>
+                    I am enthusiastic about programming. I also have a keen interest in exploring the domains that are unexplored and like spending time in learning new technologies. 
+                </p>
+                <a href="https://drive.google.com/file/d/1Mbdu6dkrXxgCLCUTRKD79Afl4SOimt_E/view?usp=sharing" target="_blank">
+                    <button class="btn">
+                        Download CV
+                    </button>
+                </a>
+            </div>
+            <div class="education">
+                <h1 class="head">
+                    Education
+                </h1>
+                <h2 class="subhead">
+                    MCA
+                </h2>
+                <p>
+                    VIT, Vellore
+                </p>
+                <h2 class="subhead">
+                    BCA
+                </h2>
+                <p>
+                    BIT,Mesra
+                </p>
+            </div>
+            <div class="skills">
+                <h1 class="head">
+                    Technical skills
+                </h1>
+                
+                    <p><b>Languages: </b>C++, C, Java, Python, HTML, CSS</p>
+                    <p><b>Database: </b>Oracle, MySQL</p>
+                    <p>OOPs, Data Structures and Algorithms, Machine Learning, Front-end development</p>
+                
+            </div>
+        </div>        
+    </section>
+
+    <section id="work">
+        <div class="projects">
+            <h1 class="head" style="padding-left: 10vw;">
+                Projects
+            </h1>
+            <div class="grid-container2">
+ 
+                <div class="project1">
+                    <img src="./img/personality620.jpg" alt="personality" class="personality">
+                    <a href="" id="p">
+                        <p>Personality predictor</p>
+                    </a>                        
+                </div> 
+                <div class="project2">
+                    <img src="./1.CXRCTThoraximagesofCOVID-19fromSingapore.pdf-000-fig1a.png" alt="xray" class="xray">
+                    <a href="https://github.com/pragya53/Covid19-Detector-using-CNN-and-Grad-CAM" target="_blank" id="p">
+                        <p>Covid Detector</p>
+                    </a>
+                </div>
+                <div class="project3">
+                    <img src="./RoundRobinS4.png" alt="edrr" class="edrr">
+                    <a href="" id="p">
+                        <p>Extended Dynamic Round Robin</p>
+                    </a>                        
+                </div>
+
+                <div class="project4">
+                    <img src="./Portfolio-Desk.jpg" alt="profile" class="profile">
+                    <a href="" id="p">
+                        <p>Portfolio</p>
+                    </a>                        
+                </div>
+                                            
+                <div class="project5">
+                    <img src="./images.jpg" alt="waste" class="waste">
+                    <a href="" id="p">
+                        <p>Waste Classifier</p>
+                    </a>                        
+                </div>
+                
+                <div class="project6">
+                    <img src="./ASL.png" alt="gesture" class="gesture">
+                        <a href="" id="p">
+                            <p>Hand Gesture Recognition</p>
+                        </a>                        
+                </div>
+        
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="grid-container3">
+            <div class="contact-form" data-aos="fade-up" method="post" action="mailto:pragyashashwati5@gmail.com">
+                <div class="form-text">
+                    <h2>Drop in your details below!</h2>
+                    <h2>I'll ping you!</h2>
+                </div>
+                <input type="text" placeholder="Name" class="form-input">
+                <input type="email" placeholder="Email" class="form-input">
+                <textarea rows="5" placeholder="Type your message" class="form-input"></textarea>
+                <button class="btn">Send</button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <footer>
+            <div class="footer">
+                <div class="icon"><a href="https://github.com/pragya53" target="_blank"><i class="fab fa-github fa-3x"></i></a></div>
+                <div class="icon"><a href="https://www.linkedin.com/in/pragya-shashwati-4a776814a/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a></div>
+                <div class="icon"><a href="https://twitter.com/PragyaShashwati" target="_blank"><i class="fab fa-twitter fa-3x"></i></a></div>
+                <div class="icon"><a href="https://www.facebook.com/pragya.shashwati" target="_blank"><i class="fab fa-facebook fa-3x"></i></a></div>
+            </div>
+            <div class="footer-text">
+                <h3>Pragya Shashwati | Jamshedpur, India.</h3>
+            </div>
+        </footer>
+    </section>
+    <script>
+        var show =document.getElementById("nav-menu");
+        function showMenu() {
+            show.style.right = "0";
+        }
+        function closeMenu() {
+            show.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
